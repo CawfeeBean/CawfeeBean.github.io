@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="color.css">
+    <div class="multi-bg-example"></div>
+  <head>
+    <script type="text/javascript" src="javascript.js"></script>
+
+    <h1>Coffee is pompous water</h1>
+    <img src="https://78.media.tumblr.com/efbec648ca89a50b6abb04e0239886be/tumblr_ml8y9dr7iv1s4znkyo1_400.gif">
+    <br>
+  <body>
+  <p class="test">
+    Who am I?<br>
+    An aspiring artist of Generation Z<br>
+    A <em>small</em> girl with a huge imagination<br>
+    A tiny yolk surrounded by a massive shell<br>
+    Crab and snake<br>
+    Probably a vampire<br>
+    <br>
+    How am I?<br>
+    Probably suffering from sleep deprivation<br>
+    Telling my mind to stop thinking of random ideas, yet accepting the burst of creativity<br>
+    Getting easily distracted<br>
+    Majoring in indecisiveness<br>
+    Otherwise, fine<br>
+    <br>
+    What am I?<br>
+    A man-made piece of art<br>
+    <br>
+    Why am I?<br>
+    A good question for another day<br>
+    <a href="https://imgur.com/a/K15i8VW">Go to mini portfolio</a> or check out the slideshow below<br>
+    Note that not all art pieces may be below
+  </p>
+  <h2 class="w3-center">oh my god it's art</h2>
+  <div class="w3-content w3-display-container">
+    <img class="mySlides" src="https://i.imgur.com/FfHelGx.jpg" style="width: 40%; height: 40%"/>
+    <img class="mySlides" src="https://i.imgur.com/2bPI7KC.jpg" style="width: 40%; height: 40%"/>
+    <img class="mySlides" src="https://i.imgur.com/QVMP0xR.jpg" style="width: 20%; height: 20%"/>
+    <img class="mySlides" src="https://i.imgur.com/78BNC5H.jpg" style="width: 30%; height: 30%"/>
+    <img class="mySlides" src="https://i.imgur.com/pZvNMbb.jpg" style="width: 30%; height: 30%"/>
+    <img class="mySlides" src="https://i.imgur.com/q9QQ7WQ.jpg" style="width: 40%; height: 40%"/>
+    <img class="mySlides" src="https://i.imgur.com/107sVLh.jpg" style="width: 30%; height: 30%"/>
+    <img class="mySlides" src="https://i.imgur.com/8UfAzga.jpg" style="width: 30%; height: 30%"/>
+    <img class="mySlides" src="https://i.imgur.com/nHrKNtE.jpg" style="width: 30%; height: 30%"/>
+    <img class="mySlides" src="https://i.imgur.com/5zIgnpq.png" style="width: 30%; height: 30%"/>
+
+  </div>
+  <script>
+  var slideIndex = 0;
+  carousel();
+
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1}
+    x[slideIndex-1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+  }
+  </script>
+  </body>
+</html>
