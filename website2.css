@@ -5,3 +5,13 @@ body {
   -o-background-size: cover;
   background-size: stretch;
 }
+
+h1{
+  color:white;
+  font-family:georgia;
+}
+
+.head{
+  color:blanchedalmond;
+  font-family: "Courier New";
+}
