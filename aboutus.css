@@ -6,6 +6,8 @@ body {
   background-size: stretch;
 }
 
-.font{
-    font-family:georgia;
+.test{
+  color:blanchedalmond;
+  font-family: "Courier New";
+  font-size: 150%;
 }
