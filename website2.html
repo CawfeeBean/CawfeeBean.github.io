@@ -31,6 +31,28 @@ a:active {
     "Any sufficiently advanced technology is equivalent to magic." - Sir Arthur C. Clarke</h1>
     <br>
   <body>
+    <audio id="myAudio">
+  <source src="OMFG - Hello.mp3" type="audio/ogg">
+  <source src="OMFG - Hello.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<center> <p>Click the buttons to play or pause the audio.</p> </center>
+
+<center><button onclick="playAudio()" type="button">Play Audio</button></center>
+<center><button onclick="pauseAudio()" type="button">Pause Audio</button></center>
+
+<script>
+var x = document.getElementById("myAudio");
+
+function playAudio() {
+    x.play();
+}
+
+function pauseAudio() {
+    x.pause();
+}
+</script>
 
     <center><div style="height:680px;width:500px;border:1px solid #ccc;color:white;font:16px/26px Georgia, Garamond, Serif;overflow:auto;">
 <h2>What is tech?</h2>It's a field where you explore computers and new things.<br>It's another medium for art.<br>I don't know.<br>
