@@ -5,6 +5,16 @@ body {
   -o-background-size: cover;
   background-size: stretch;
 }
+
+h1{
+  color:white;
+  font-family:georgia;
+}
+
+h2{
+  color:white;
+  font-family:georgia;  
+}
 <<<<<<< HEAD
 =======
 
