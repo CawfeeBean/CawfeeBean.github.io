@@ -22,6 +22,26 @@
     About Us</h1>
   <body style="text-align:center;">
   <p class="test">
+    <audio id="myAudio">
+  <source src="C:\Users\Girls Who Code\Music\home.mp3" type="audio/ogg">
+  <source src="C:\Users\Girls Who Code\Music\home.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<center><button onclick="playAudio()" type="button">Play Audio</button></center>
+<center><button onclick="pauseAudio()" type="button">Pause Audio</button></center>
+
+<script>
+var x = document.getElementById("myAudio");
+
+function playAudio() {
+    x.play();
+}
+
+function pauseAudio() {
+    x.pause();
+}
+</script>
     <img src="https://i.imgur.com/ZDFcwrV.jpg" style="width: 30%; height: 30%"/><br>
     A group of confused girls entering the tech world<br>
     <br>
