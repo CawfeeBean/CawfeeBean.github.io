@@ -22,6 +22,26 @@
   Here, we'll post art to show that the tech field can, indeed, be creative.<br>
   Feel free to submit your own art in the comments!</h2>
 
+  <audio id="myAudio">
+  <source src="C:\Users\Girls Who Code\Music\kikidelivery.mp3" type="audio/ogg">
+  <source src="C:\Users\Girls Who Code\Music\kikidelivery.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+  </audio>
+
+  <center><button onclick="playAudio()" type="button">Play Audio</button></center>
+  <center><button onclick="pauseAudio()" type="button">Pause Audio</button></center>
+
+  <script>
+  var x = document.getElementById("myAudio");
+
+  function playAudio() {
+  x.play();
+  }
+
+  function pauseAudio() {
+  x.pause();
+  }
+  </script>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
