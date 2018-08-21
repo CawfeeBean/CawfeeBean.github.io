@@ -1,24 +1,56 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title> welcome to the real webite </title>
+    <title> Something Interesting Here </title>
     <link rel="stylesheet" href="website2.css">
     <div class="multi-bg-example"></div>
   <head>
     <script type="text/javascript" src="javascript.js"></script>
     <style>
     <center>h1 {
-
       border-style: solid;
       border-color: white;
     }
-
   </style>
+  <style>
+  a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+</style>
 
     <h1 style="text-align:center;">
     "Any sufficiently advanced technology is equivalent to magic." - Sir Arthur C. Clarke</h1>
     <br>
   <body>
+    <audio id="myAudio">
+  <source src="digitalkiss.mp3" type="audio/ogg">
+  <source src="digitalkiss.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<center><button onclick="playAudio()" type="button">Play Audio</button></center>
+<center><button onclick="pauseAudio()" type="button">Pause Audio</button></center>
+
+<script>
+var x = document.getElementById("myAudio");
+
+function playAudio() {
+    x.play();
+}
+
+function pauseAudio() {
+    x.pause();
+}
+</script>
 
     <center><div style="height:680px;width:500px;border:1px solid #ccc;color:white;font:16px/26px Georgia, Garamond, Serif;overflow:auto;">
 <h2>What is tech?</h2>It's a field where you explore computers and new things.<br>It's another medium for art.<br>I don't know.<br>
@@ -66,6 +98,7 @@ Please reconsider<br>
 There's a fun world out there in the tech world that you can pursue!<br>
 <br>
 <br>
+<a href="https://cawfeebean.github.io/gallery.html">Gallery</a><br>
 <a href="https://cawfeebean.github.io/aboutus.html">About Us</a>
 
 

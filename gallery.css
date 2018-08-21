@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /img {
   width:100px;
   height:100px;
@@ -17,6 +18,30 @@ input.search {
 input.search:focus {
     background-image: none;
 =======
+=======
+body {
+  background: url(http://www.clker.com/cliparts/3/2/b/b/1411867454605188369pink%20and%20yellow-gradient-abstract-wallpaper.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: stretch;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 20px;
+}
+
+h1{
+  color:white;
+  font-family:georgia;
+}
+
+h2{
+  color:white;
+  font-family:georgia;
+}
+
+
+
+>>>>>>> a7697dacdd667e9959da565018e7671a7a8d570c
 /* Style the Image Used to Trigger the Modal */
 #myImg {
     border-radius: 5px;
