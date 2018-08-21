@@ -1,3 +1,24 @@
+<<<<<<< HEAD
+/img {
+  width:100px;
+  height:100px;
+  background: url(http://goo.gl/vyAs27) no-repeat scroll 0 0;
+}
+body {
+  background: url(http://www.clker.com/cliparts/3/2/b/b/1411867454605188369pink%20and%20yellow-gradient-abstract-wallpaper.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: stretch;
+}
+input.search {
+    background-image: url("placeholder.gif");
+    background-repeat: no-repeat;
+}
+input.search:focus {
+    background-image: none;
+=======
+=======
 body {
   background: url(http://www.clker.com/cliparts/3/2/b/b/1411867454605188369pink%20and%20yellow-gradient-abstract-wallpaper.jpg);
   -webkit-background-size: cover;
@@ -20,6 +41,7 @@ h2{
 
 
 
+>>>>>>> a7697dacdd667e9959da565018e7671a7a8d570c
 /* Style the Image Used to Trigger the Modal */
 #myImg {
     border-radius: 5px;
@@ -99,3 +121,8 @@ h2{
         width: 100%;
     }
 }
+<style>
+body {
+    font-family: 'permanent marker';font-size: 40px;
+}
+</style>
