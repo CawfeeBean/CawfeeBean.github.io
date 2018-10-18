@@ -1,0 +1,17 @@
+body {
+  background: url(https://www.xmple.com/wallpaper/orange-green-gradient-linear-1920x1080-c2-f8d26a-6af871-a-135-f-14.svg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: stretch;
+}
+
+h1{
+  color:white;
+  font-family:georgia;
+}
+
+.head{
+  color:blanchedalmond;
+  font-family: "Courier New";
+}
